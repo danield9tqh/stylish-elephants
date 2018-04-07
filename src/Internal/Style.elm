@@ -469,7 +469,7 @@ rules =
         --         )
         --     ]
         , Class (class Root)
-            [ Prop "width" "100%"
+            [ Prop "min-width" "100%"
             , Prop "height" "auto"
             , Prop "min-height" "100%"
             , Descriptor ".se.el.height-content"
@@ -768,7 +768,7 @@ rules =
                 ]
             ]
         , Class (class Single)
-            [ Prop "display" "flex"
+            [ Prop "display" "inline-flex"
             , Prop "flex-direction" "column"
             , Prop "white-space" "pre"
             , Descriptor ".se-button"
@@ -854,7 +854,7 @@ rules =
             , Prop "pointer-events" "none"
             ]
         , Class (class Row)
-            [ Prop "display" "flex"
+            [ Prop "display" "inline-flex"
             , Prop "flex-direction" "row"
             , Child (class Any)
                 [ Prop "flex-basis" "0%"
@@ -1002,7 +1002,7 @@ rules =
                 ]
             ]
         , Class (class Column)
-            [ Prop "display" "flex"
+            [ Prop "display" "inline-flex"
             , Prop "flex-direction" "column"
             , Child ".height-fill"
                 [ Prop "flex-grow" "100000"
